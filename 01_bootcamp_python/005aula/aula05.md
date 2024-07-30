@@ -1,0 +1,1 @@
+# Esta aula foi o desafio de um bilhão de linhas
