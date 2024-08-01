@@ -12,7 +12,7 @@ def ler_csv(nome_arquivo: str) -> list[dict]:
 #print(ler_csv(path_arquivo))
 
 #Calcular o total de vendas (Quantidade * Venda) por categoria.
-def calcular_vendas_categoria(lista_dados):
+def calcular_vendas_categoria(lista_dados: dict) -> dict:
     """Função para calcular o total de vendas por categoria."""
     vendas_por_categoria = {}
     for dado in lista_dados:
