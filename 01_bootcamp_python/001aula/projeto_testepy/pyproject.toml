@@ -1,18 +1,12 @@
 [tool.poetry]
-name = "bootcamp-python"
+name = "projeto-testepy"
 version = "0.1.0"
 description = ""
 authors = ["Jownao <johnnywsevero@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
-black = "^24.4.2"
-pandas = "^2.2.2"
-pandera = "^0.20.3"
-pyarrow = "^17.0.0"
-loguru = "^0.7.2"
-tenacity = "^9.0.0"
+python = "^3.11.5"
 
 
 [build-system]
